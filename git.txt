@@ -15,7 +15,7 @@ git reset = excluir archivos del stage
 git commit = crea registro
 git commit -m "Nombre del mensaje"
 git commit -am "Nombre del mensaje" = Pone en stage y guarda commit
-git commit -amend = Arreglar último commit
+git commit -amend = Arreglar Ãºltimo commit
 
 git reset --soft HEAD~1 = Mover el HEAD
 
@@ -30,7 +30,7 @@ Crear Alias:
 git config --global alias.lg(esto es el shortcut) "log --oneline --decorate --all --graph"
 git config --global alias.s "status -s -b"
 
-o git config --global --edit para abrir el archivo de edición de git 
+o git config --global --edit para abrir el archivo de ediciÃ³n de git 
 
 Para utilizar sublime como editor de git:
 git config --global core.editor "'C:\Program Files (x86)\Sublime Text 3\sublime_text.exe' -w"
@@ -45,5 +45,7 @@ git branch <nombre-rama>
 git checkout <nombre-rama> = para moverse
 git branch -d = borrar rama
 git merge = para unir ramas
+
+CAMBIOS EN GITHUB
 
 
